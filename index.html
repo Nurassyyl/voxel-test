@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фитомиллы</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="overcap">
+    <div class="overcap-container">
+      <img src="./assets/img/label.png" alt="">
+    </div>
+  </div>
+  <header class="header-section">
+    <div class="container">
+      <div class="header">
+        <div class="header__logo">
+          <img src="./assets/img/logo.png" alt="Logo">
+          <img src="./assets/img/logo-text.svg" alt="Logo text">
+          <!-- <div class="header__titles">
+              <h1 class="header__title">Фитомиллы</h1>
+              <h4 class="header__subtitle">Функциональное питание</h4>
+            </div> -->
+        </div>
+        <div class="header__desc">
+          <h4 class="header__desc-title">Здоровое пищеварение, очищение организма, красота и молодость</h4>
+          <h4 class="header__deac-subtitle">Для тех, кто ценит свое здоровье</h4>
+        </div>
+        <div class="header__city">
+          <img src="./assets/img/z-link.svg" alt="City logo">
+          <p class="city">Усть-Каменогорск</p>
+        </div>
+        <div class="header__buy">
+          <div class="header__buy_prices">
+            <div class="header__buy_price"></div>
+            <p>5 450 из 10 000 ₸</p>
+          </div>
+          <div class="header__buy_text">До бесплатной доставки осталось</div>
+        </div>
+      </div>
+      <nav class="nav-main">
+        <div class="nav__catalog">
+          <img class="catalog-open" src="./assets/img/ico.svg" alt="Catalog icon">
+          <img class="catalog-close" src="./assets/img/catalog-close.svg" alt="">
+          <p>Каталог</p>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Вопрос-ответ</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Доставка и оплата</a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">
+              О компании <img class="nav-menu__link_down" src="./assets/img/fi-br-angle-small-down.svg"
+                alt="down small">
+            </a>
+            <!-- <div class="popup-about">
+              <ul class="popup-about__menu">
+                <li class="popup-about__menu-item">
+                  <a href="#" class="popup-about__menu-link">История компании</a>
+                </li>
+                <li class="popup-about__menu-item">
+                  <a href="#" class="popup-about__menu-link">Контакты</a>
+                </li>
+                <li class="popup-about__menu-item">
+                  <a href="#" class="popup-about__menu-link">Семей</a>
+                </li>
+              </ul>
+            </div> -->
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Блог <img class="nav-menu__link_down"
+                src="./assets/img/fi-br-angle-small-down.svg" alt="down small"></a>
+          </li>
+          <li class="nav-menu__item">
+            <a href="#" class="nav-menu__link">Отзывы </a>
+          </li>
+        </ul>
+        <div class="carts-login">
+          <div class="cart">
+            <img src="./assets/img/cart.png" alt="Cart">
+            <div class="cart__counter">2</div>
+          </div>
+          <div class="login">
+            <img src="./assets/img/login.png" alt="Login">
+          </div>
+        </div>
+        <div class="languages">
+          <div class="lang-ru">RU</div>
+          <div class="lang-kz">KZ</div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="popup-catalog">
+    <div class="container">
+      <div class="popup-catalog__main">
+        <ul class="popup-links">
+          <li class="popup-item">
+            <a href="#" class="popup-link">Название линейки 1</a>
+          </li>
+          <li class="popup-item">
+            <a href="#" class="popup-link">Название линейки 2</a>
+          </li>
+          <li class="popup-item">
+            <a href="#" class="popup-link">Название линейки 3</a>
+          </li>
+          <li class="popup-item">
+            <a href="#" class="popup-link">Название линейки 4</a>
+          </li>
+          <li class="popup-item">
+            <a href="#" class="popup-link">Название линейки 5</a>
+          </li>
+          <a href="#" class="popup-link__more">Смотреть все линейки</a>
+        </ul>
+        <div class="popup-sale-news">
+          <div class="popup-sale">
+            <p>Акции</p>
+            <div class="popup-sale__percent"><img src="./assets/img/sale.svg" alt="Sale"></div>
+          </div>
+          <div class="popup-news">
+            <p>Новинки</p>
+            <div class="popup-sale__percent"><img src="./assets/img/word-new.svg" alt="New"></div>
+          </div>
+        </div>
+        <div class="popup-technologies">
+          <div class="popup-technologies__blog">Технология производства
+            <img class="popup-technologies__img" src="./assets/img/img-last-section.png" alt="img section">
+          </div>
+          <div class="popup-technologies__blog">Технология производства
+            <img class="popup-technologies__img" src="./assets/img/img-last-section.png" alt="img section">
+          </div>
+          <div class="popup-technologies__blog">Технология производства
+            <img class="popup-technologies__img" src="./assets/img/img-last-section.png" alt="img section">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <section class="section">
+    <div class="container">
+      <div class="bread-crumbs">
+        Главная страница <span class="bread-crumbs__dash">-</span> PhytoLab <span class="bread-crumbs__dash">-</span>
+        Каталог продукции <span class="bread-crumbs__dash">-</span>
+        <span class="bread-crumbs__purple">
+          Фитомиллы овса (150г.)
+        </span>
+      </div>
+      <div class="section-blok">
+        <div class="section-block__slider">
+          <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-prev"><img src="./assets/img/prev.svg" alt=""></div>
+          <div class="swiper-next"><img src="./assets/img/next.svg" alt=""></div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-block__inform">
+          <h1 class="inform-title">Фитомиллы овес (150 г)</h1>
+          <div class="inform-subtitle">
+            <img src="./assets/img/icon-technogolies.png" alt="Icon tech">
+            <p class="inform-subtitle__desc">Производится по технологии, патент на которую отмечен Республиканской
+              премией <span class="invention-year">«Изобретение года»</span></p>
+          </div>
+          <div class="reviews">
+            <div class="review-block">
+              <div class="review">
+                <div class="review-number">123 отзыва</div>
+                <div class="review-view-more">Смотреть отзывы</div>
+              </div>
+              <img class="review-logs" src="./assets/img/star-review.png" alt="Star review">
+
+            </div>
+            <div class="review-dash"></div>
+            <div class="review-block">
+              <div class="review">
+                <div class="review-number">123 ответа на вопросы</div>
+                <div class="review-view-more">Смотреть отзывы</div>
+              </div>
+              <img class="review-logs" src="./assets/img/question-mark.png" alt="Question mark">
+
+            </div>
+            <div class="review-dash"></div>
+            <div class="review-block">
+              <div class="review">
+                <div class="review-number">123 рецепта</div>
+                <div class="review-view-more">Смотреть отзывы</div>
+              </div>
+              <img class="review-logs" src="./assets/img/board.png" alt="Board">
+
+            </div>
+            <div class="review-dash"></div>
+            <div class="review-block">
+              <div class="review">
+                <div class="review-number">123 статьи</div>
+                <div class="review-view-more">Смотреть отзывы</div>
+              </div>
+              <img class="review-logs" src="./assets/img/book.png" alt="Book">
+            </div>
+          </div>
+          <div class="product-types">
+            <div class="product-type__title">Выбрать другой вид продукта:</div>
+            <div class="product-type">
+              <div class="product-type__select product-type__selected">овес</div>
+              <div class="product-type__select product-type__selected-no">овес и черника</div>
+              <div class="product-type__select product-type__selected-border">клубника</div>
+              <div class="product-type__select product-type__selected-border">овес и клубника</div>
+            </div>
+          </div>
+          <div class="grammings">
+            <div class="gramming-title">Граммовка:</div>
+            <div class="gramming">
+              <div class="gramming-select gramming-selected">150 г</div>
+              <div class="gramming-select gramming-selected__border">300 г</div>
+              <div class="gramming-select">*150 г – хватает на 3 недели</div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-views">
+              <div class="product-go-to">
+                <img class="product-go-to__logo" src="./assets/img/go-to-logo.png" alt="">
+                <p><a class="product-go-to__link" href="#"> Перейти </a> к описанию продукта</p>
+              </div>
+              <div class="product-go-to">
+                <img class="product-go-to__logo" src="./assets/img/pro-compo-view.png" alt="">
+                <p><a class="product-go-to__link" href="#">Смотреть </a> состав продукта</p>
+              </div>
+              <div class="product-go-to">
+                <img class="product-go-to__logo" src="./assets/img/delivery.png" alt="">
+                <p><a class="product-go-to__link" href="#">Смотреть </a> информацию по доставке</p>
+              </div>
+              <div class="product-go-to">
+                <img class="product-go-to__logo" src="./assets/img/doc.png" alt="">
+                <p><a class="product-go-to__link" href="#">Подтверждающие документы на товар</a></p>
+              </div>
+            </div>
+            <div class="product-carts">
+              <div class="product-cart__bg">
+                <div class="product-cart">
+                  <div class="product-prices">
+                    <div class="product-base-price">700 ₸</div>
+                    <div class="product-discount">950 ₸</div>
+                    <div class="product-percent">-25%</div>
+                  </div>
+                  <div class="product-cart__button">Добавить в корзину</div>
+                  <div class="product-cart__order">
+                    <img src="./assets/img/order-logo.png" alt="">
+                    <p><a class="product-cart__manager" href="#">Заказать через менеджера</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-delivery">
+                <div class="product-delivery__free">
+                  <img src="./assets/img/freedel.png" alt="">
+                  <p class="product-delivery__free-text">Бесплатная доставка при заказе от 10 000 тенге</p>
+                </div>
+                <div class="product-delivery__methods">
+                  <h1 class="product-delivery__methods-title">Другие способы приобретения:</h1>
+                  <div class="product-delivey__other">
+                    <a class="product-delivey__method" href="#">Маркетплейсах</a>
+                    <a class="product-delivey__method" href="#">Точки продаж</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product-description">
+    <div class="container">
+      <div class="product-desc">
+        <div class="product-description__info">
+          <h1 class="product-description__info-title">Описание</h1>
+          <ul class="product-description__info-list">
+            <li class="product-description__info-item">
+              <strong>В 1989 году</strong> кандидат технических наук Башкирцев Алексей Алексеевич разработал технологию
+              «Сверхизмельчения».
+            </li>
+            <li class="product-description__info-item">
+              <strong>В 2008 году</strong> технология была удостоена Республиканской премией Шапагат «Изобретение года».
+            </li>
+          </ul>
+          <div class="product-description__screens">
+            <div class="product-description__screens-img">
+              <img class="product-description__screen" src="./assets/img/sceenshot-desc.png" alt="">
+              <p class="product-description__signature">Подпись</p>
+              <img class="product-description__screen-rezise" src="./assets/img/resize.png" alt="">
+            </div>
+            <div class="product-description__screens-img">
+              <img class="product-description__screen" src="./assets/img/sceenshot-desc.png" alt="">
+              <p class="product-description__signature">Подпись</p>
+              <img class="product-description__screen-rezise" src="./assets/img/resize.png" alt="">
+            </div>
+          </div>
+          <div class="product-description__texts">
+            <p class="product-description__text">
+              С помощью этой технологии злаки, семена, ягоды, орехи, фрукты, травы и другие природные ингредиенты
+              превращаются
+              в супертонкий порошок — пудру. Каждая отдельная частичка такого порошка <strong>в 100 раз тоньше
+                человеческого
+                волоса!</strong>
+            </p>
+            <p class="product-description__text">
+              Благодаря этому значительно возрастает усвояемость всех полезных веществ.
+            </p>
+            <p class="product-description__text"><strong>Впервые удалось открыть бесценную кладовую природы!</strong>
+            </p>
+          </div>
+          <a href="#" class="product-description__read-more">Читать подробнее о технологии</a>
+        </div>
+        <div class="product-description__img">
+          <img src="./assets/img/desc-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="full-description">
+    <div class="container">
+      <div class="full-desc">
+        <div class="full-desc__head">
+          <h1 class="full-desk__title">
+            Технология производства
+          </h1>
+          <img class="full-desc__bg" src="./assets/img/img-full-desc.png" alt="">
+          <div class="full-desk__bg"></div>
+        </div>
+      </div>
+      <div class="full-desk__btn">Раскрыть полное описание</div>
+      <div class="product-detail">
+        <div class="product-composition">
+          <h4 class="product-detail__title">Состав</h4>
+          <p class="product-detail__text">
+            Волокна полученные из семян: льна, штирийской тыквы, амаранта, конопли, натурального кунжута, расторопши,
+            черного тмина
+          </p>
+        </div>
+        <div class="product-date">
+          <h4 class="product-detail__title">Срок годности</h4>
+          <p class="product-detail__text">12 месяцев</p>
+        </div>
+        <div class="product-conditions">
+          <h4 class="product-detail__title">Условия хранения</h4>
+          <p class="product-detail__text">
+            Хранить при температуре от +2 до +25 С и относительное влажности воздуха не более 75%.
+          </p>
+        </div>
+      </div>
+      <div class="payment">
+        <h2 class="block__title">Доставка и оплата</h2>
+        <div class="payments">
+          <div class="shipping payment__location">
+            <img src="./assets/img/location.svg" alt="">
+            <p class="payment__address">Ваш адрес Восточно-Казахстанская, г. Усть-Каменогорск,
+              <a class="payment__indicate" href="#">указать другой адрес</a>
+            </p>
+          </div>
+          <div class="shipping payment__deliveryes">
+            <div class="payment__delivery">
+              <div class="payment__delivery-free">
+                <img src="./assets/img/kamaz-delivery.png" alt="">
+                <p class="payment__delivery-text">Бесплатная доставка при заказе от 10 000 тенге</p>
+              </div>
+              <div class="payment__delivery-types">
+                <div class="payment__delivery-types-of">
+                  <div class="payment__delivery-type">Доставка курьером</div>
+                  <div class="payment__delivery-info">3-4 дня, 2 000 тенге</div>
+                </div>
+                <div class="payment__delivery-types-of">
+                  <div class="payment__delivery-type">Самовывоз в пункте выдачи или тастамате</div>
+                  <div class="payment__delivery-info">3-4 дня, 2 000 тенге</div>
+                </div>
+                <div class="payment__delivery-types-of">
+                  <div class="payment__delivery-type">Доставка Казпочтой</div>
+                  <div class="payment__delivery-info">3-4 дня, 2 000 тенге</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shipping payment__questions">
+            <img src="./assets/img/click.png" alt="">
+            <p><a class="payment__questions-text" href="#">Задать вопрос по доставке</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="purchasing-block">
+    <div class="container">
+      <div class="purchasing">
+        <h2 class="block__title">Другие способы приобретения*</h2>
+        <p class="purchasing__subtitle">Цены на маркетплейсах могут отличаться*</p>
+      </div>
+      <div class="marketplaces-types">
+        <div class="marketplaces">
+          <img src="./assets/img/kaspi.png" alt="" class="marketplaces__logo">
+          <div class="marketplace-types">
+            <p class="marketplace-type">Купить в магазине на Kaspi.kz</p>
+            <div class="marketplace__feedbacks">
+              <img src="./assets/img/star-market.png" alt="" class="marketplace__feedback-logo">
+              <p class="marketplace__feedback">93% положительных отзывов</p>
+            </div>
+          </div>
+        </div>
+        <div class="marketplaces">
+          <img src="./assets/img/ozon-market.png" alt="" class="marketplaces__logo">
+          <div class="marketplace-types">
+            <p class="marketplace-type">Купить в магазине на Kaspi.kz</p>
+            <div class="marketplace__feedbacks">
+              <img src="./assets/img/star-market.png" alt="" class="marketplace__feedback-logo">
+              <p class="marketplace__feedback">93% положительных отзывов</p>
+            </div>
+          </div>
+        </div>
+        <div class="marketplaces">
+          <img src="./assets/img/wb-market.png" alt="" class="marketplaces__logo">
+          <div class="marketplace-types">
+            <p class="marketplace-type">Купить в магазине на Kaspi.kz</p>
+            <div class="marketplace__feedbacks">
+              <img src="./assets/img/star-market.png" alt="" class="marketplace__feedback-logo">
+              <p class="marketplace__feedback">93% положительных отзывов</p>
+            </div>
+          </div>
+        </div>
+        <div class="marketplaces">
+          <img src="./assets/img/yandex-market.png" alt="" class="marketplaces__logo">
+          <div class="marketplace-types">
+            <p class="marketplace-type">Купить в магазине на Kaspi.kz</p>
+            <div class="marketplace__feedbacks">
+              <img src="./assets/img/star-market.png" alt="" class="marketplace__feedback-logo">
+              <p class="marketplace__feedback">93% положительных отзывов</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- script src -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
