@@ -16,7 +16,7 @@ btnCatalog.addEventListener('click', () => {
 
 var swiper = new Swiper(".mySwiper", {
   loop: true,
-  spaceBetween: 10,
+  spaceBetween: 5,
   slidesPerView: 5,
   freeMode: true,
   watchSlidesProgress: true,

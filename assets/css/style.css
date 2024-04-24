@@ -491,19 +491,17 @@ body {
   }
 
   .mySwiper {
-    height: 20%;
+    height: 96px;
     box-sizing: border-box;
-    padding: 10px 0;
+    margin-top: 10px;
   }
 
   .mySwiper .swiper-slide {
-    width: 96px;
-    height: 96px;
-    opacity: 0.4;
+    padding: 9px 25px;
   }
 
   .mySwiper .swiper-slide-thumb-active {
-    opacity: 1;
+    border: 1px solid#F35E46;
   }
 
   .swiper-slide img {
@@ -527,11 +525,11 @@ body {
   }
 
   .swiper-next {
-    right: 0px;
+    right: 33px;
   }
 
   .swiper-prev {
-    left: 0px;
+    left: 33px;
   }
 
   .swiper-resize img {
