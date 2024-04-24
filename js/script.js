@@ -14,6 +14,19 @@ btnCatalog.addEventListener('click', () => {
   catalogOpen.classList.toggle('catalog-close')
 })
 
+const popupAbout = document.querySelector(".popup-about");
+const popupBlog = document.querySelector(".popup-blog");
+const popupAboutId = document.getElementById('nav-menu__item-about');
+const popupBlogId = document.getElementById('nav-menu__item-blog');
+
+popupAboutId.addEventListener('click', () => {
+  popupAbout.classList.toggle('popup-about__active');
+})
+
+popupBlogId.addEventListener('click', () => {
+  popupBlog.classList.toggle('popup-about__active');
+})
+
 var swiper = new Swiper(".mySwiper", {
   loop: true,
   spaceBetween: 5,

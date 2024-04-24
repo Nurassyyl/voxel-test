@@ -43,6 +43,10 @@ body {
     background-color: #fff;
   }
 
+  .header-section:hover {
+    box-shadow: 0px 12px 8px 6px #13131414;
+  }
+
   .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -146,6 +150,35 @@ body {
     cursor: pointer;
   }
 
+  .popup-about {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 8px 16px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .popup-about__active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .popup-about__menu-item {
+    padding: 5px 0;
+  }
+
+  .popup-about__menu-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
   .catalog-open {
     display: block;
   }
@@ -177,6 +210,14 @@ body {
     position: relative;
   }
 
+  .nav-menu__item:nth-child(3) {
+    margin-right: 120px;
+  }
+
+  .nav-menu__item:nth-child(4) {
+    margin-right: 100px;
+  }
+
   .nav-menu__item:last-child {
     margin-right: 0;
   }
@@ -190,6 +231,7 @@ body {
 
   .nav-menu__link:hover {
     border-bottom: 1px solid #FF5F52;
+    color: #000;
     transition: all 0.5s ease;
   }
 
